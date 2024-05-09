@@ -4,6 +4,7 @@
 .body {
     background-color: aliceblue;
     padding: 2em;
+    height: 100vh;
 
     .header__div{
         margin: 0 auto;

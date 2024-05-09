@@ -38,7 +38,7 @@ const Modal = ( { modalIsOpened, setModalIsOpened, activador } ) => {
     return (
         <div className={`modal__container ${!modalIsOpened && "modal__closed"}`}>
             <div className='modal__body'>
-                <h1 className='modal__title'>Carreras que encajan con tu perfil</h1>
+                <h1 className='modal__title'>Posibles carreras alineadas con tu perfil</h1>
                 <ul>
                     {
                         listaCarreras?.map(carr => (

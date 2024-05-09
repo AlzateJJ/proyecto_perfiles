@@ -18,7 +18,7 @@ function App() {
 
       <div className='header__div'>
         <h1 className='perfiles__title'>Perfiles y Dominancias</h1>
-        <p className='descripcion'>encuentra tu futuro</p>
+        <p className='descripcion'>Autodescubrimiento hacia tu popósito de vida</p>
       </div>
 
       <Modal 
@@ -28,7 +28,7 @@ function App() {
       />
 
       <div className='perfiles'>
-        <h2 className='list__title'>Escoge tu perfil dominante</h2>
+        <h2 className='list__title'>Escoge tu perfil general</h2>
         <ul className='lista_perfiles'>
           <li className={`perfil ${(activador === 'I') && 'li__activo'}`} onClick={() => handleClickLi('I')}>Izquierdo</li> 
           <li className={`perfil ${(activador === 'D') && 'li__activo'}`} onClick={() => handleClickLi('D')}>Derecho</li>
