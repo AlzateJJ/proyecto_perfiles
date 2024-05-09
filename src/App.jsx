@@ -18,7 +18,7 @@ function App() {
 
       <div className='header__div'>
         <h1 className='perfiles__title'>Perfiles y Dominancias</h1>
-        <p className='descripcion'>Autodescubrimiento hacia tu popósito de vida</p>
+        <p className='descripcion'>Autodescubrimiento hacia tu propósito de vida</p>
       </div>
 
       <Modal 
