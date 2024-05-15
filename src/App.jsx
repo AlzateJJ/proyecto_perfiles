@@ -16,7 +16,7 @@ function App() {
 
     setTimeout(() => {
         div_message.innerHTML = ""
-    }, 5000);
+    }, 2000);
   }
 
   console.log(activador)
