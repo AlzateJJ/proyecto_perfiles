@@ -9,9 +9,19 @@ function App() {
 
   const handleClickLi = (indicacion) => {
     setActivador(indicacion)
+
+    const div_message = document.querySelector(".description_profile")
+
+    div_message.innerHTML = "Marca tu dominancia"
+
+    setTimeout(() => {
+        div_message.innerHTML = ""
+    }, 5000);
   }
 
   console.log(activador)
+
+
 
   return (
     <div className='body'>
@@ -35,6 +45,7 @@ function App() {
           <li className={`perfil ${(activador === 'F') && 'li__activo'}`} onClick={() => handleClickLi('F')}>Frontal</li>
           <li className={`perfil ${(activador === 'P') && 'li__activo'}`} onClick={() => handleClickLi('P')}>Posterior</li>
         </ul>
+        <h3 className="description_profile"></h3>
       </div>
 
       <div className='imgs__container'>

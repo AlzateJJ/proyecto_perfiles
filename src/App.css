@@ -3,7 +3,7 @@
 
 .body {
     /* background-color: aliceblue; */
-    padding: 2em;
+    padding: 1em 2em;
     height: 100vh;
 
     .header__div{
@@ -22,7 +22,7 @@
     }
 
     .perfiles {
-        margin-top: 2em;
+        margin-top: 1em;
         font-family: 'EB Garamond', sans-serif;
 
         .list__title {
@@ -43,7 +43,7 @@
                 list-style: none;
                 padding: 0.5em;
                 border: 1px solid transparent;
-                background-color: rgb(73, 73, 177);
+                background-color: rgb(4, 139, 163);
                 border-radius: 1em;
                 font-weight: 700;
                 box-shadow: 0 1em 1em 0 rgba(0, 0, 0, 0.329);
@@ -69,6 +69,12 @@
                 }
             }
 
+        }
+        .description_profile {
+            color: rgb(4, 33, 128);
+            height: 1em;
+            text-align: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.26);
         }
     }
 
